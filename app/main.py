@@ -17,5 +17,3 @@ def cache(func: Callable) -> Callable:
             return res
 
     return wrapper
-
-
